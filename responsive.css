@@ -1,0 +1,38 @@
+/* Small */
+@media (min-width: 768px) {
+   
+}
+@media (max-width: 576px) {
+   
+}
+@media (max-width: 767px) {
+    .home-field .text h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .serv-field .serv-box {
+        padding: 20px 10px 10px;
+    }
+    .counter-area > div:not(:last-child) .counter-box,
+    .team-field > div:not(:last-child) .team-member {
+        margin-bottom: 25px !important;
+    }
+}
+/* Medium */
+@media (min-width: 992px) {
+
+}
+@media (max-width: 991px) {
+    .counter-area > div:not(:nth-of-type(3) , :nth-of-type(4)) .counter-box,
+    .team-field > div:not(:nth-of-type(3) , :nth-of-type(4)) .team-member {
+        margin-bottom: 25px;
+    }
+}
+/* Large */
+@media (max-width: 1140px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
